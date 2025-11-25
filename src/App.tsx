@@ -56,19 +56,19 @@ function App() {
         <img
             src={orImg}
             alt="or"
-            className="h-9 w-9 object-cover rounded-full mb-8 shadow-2xl z-50 absolute top-[9.9%] left-[58%] lg:top-[9.1%] lg:left-[50%]  sm:top-[9.1%]"
+            className="h-9 w-9 object-cover rounded-full mb-8 shadow-2xl z-50 absolute top-[9.8%] left-[58%] lg:top-[9.1%] lg:left-[50%]  sm:top-[9.1%]"
           />
 
             <img
             src={diamantImg}
             alt="or"
-            className="h-9 w-9 object-cover rounded-full mb-8 shadow-2xl z-50 absolute top-[11.1%] left-[58%] lg:top-[10.8%] lg:left-[50%]  sm:top-[10.8%]"
+            className="h-9 w-9 object-cover rounded-full mb-8 shadow-2xl z-50 absolute top-[11.5%] left-[58%] lg:top-[10.8%] lg:left-[50%]  sm:top-[10.8%]"
           />
 
           <img
             src={bronzeImg}
             alt="or"
-            className="h-9 w-9 object-cover rounded-full mb-8 shadow-2xl z-50 absolute top-[12.9%] left-[58%] lg:top-[12.6%] lg:left-[50%] sm:top-[12.6%]"
+            className="h-9 w-9 object-cover rounded-full mb-8 shadow-2xl z-50 absolute top-[13.2%] left-[58%] lg:top-[12.6%] lg:left-[50%] sm:top-[12.6%]"
           />
 
         <CandidateList candidates={sortedCandidates} />
