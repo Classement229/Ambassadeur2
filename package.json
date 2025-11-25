@@ -3,7 +3,7 @@
   "private": false,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://classement30.github.io/Ambassadeur/",
+  "homepage": "https://classement229.github.io/Ambassadeur2/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/Classement30/Ambassadeur.git"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",

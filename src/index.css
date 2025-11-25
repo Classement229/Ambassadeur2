@@ -2,5 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.image-responsive {
+  position: absolute;
+  width: 40vw;       /* 40% de la largeur de l’écran */
+  top: 20vh;         /* position verticale responsive */
+  left: 50%;         /* centre horizontalement */
+  transform: translateX(-50%); 
+}
 
 
