@@ -8,6 +8,7 @@ import orImg from '../public/or.png';
 import diamantImg from '../public/diamant.png';
 import bronzeImg from '../public/bronze.png';
 import Footer from "./components/footer";
+import myBg from "../public/bg.jpeg";
 
 function App() {
   const sortedCandidates = useMemo(() => {
@@ -22,7 +23,7 @@ function App() {
       <div
         className="fixed inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&w=1920)',
+          backgroundImage: `url(${myBg})`,
           zIndex: -2
         }}
       />
