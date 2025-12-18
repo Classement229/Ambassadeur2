@@ -57,22 +57,25 @@ function App() {
         <img
             src={orImg}
             alt="or"
-            className="h-9 w-9 object-cover rounded-full mb-8 shadow-2xl z-50 absolute top-[9.8%] left-[58%] lg:top-[9.1%] lg:left-[50%]  sm:top-[9.1%]"
+            className="h-9 w-9 object-cover rounded-full mb-8 shadow-2xl z-50 absolute top-[23.5%] left-[58%] lg:top-[22.5%] lg:left-[50%]  sm:top-[22.5%]"
           />
 
             <img
             src={diamantImg}
             alt="or"
-            className="h-9 w-9 object-cover rounded-full mb-8 shadow-2xl z-50 absolute top-[11.5%] left-[58%] lg:top-[10.8%] lg:left-[50%]  sm:top-[10.8%]"
+            className="h-9 w-9 object-cover rounded-full mb-8 shadow-2xl z-50 absolute top-[27.5%] left-[58%] lg:top-[27%] lg:left-[50%]  sm:top-[27%]"
           />
 
           <img
             src={bronzeImg}
             alt="or"
-            className="h-9 w-9 object-cover rounded-full mb-8 shadow-2xl z-50 absolute top-[13.2%] left-[58%] lg:top-[12.6%] lg:left-[50%] sm:top-[12.6%]"
+            className="h-9 w-9 object-cover rounded-full mb-8 shadow-2xl z-50 absolute top-[31.5%] left-[58%] lg:top-[31.5%] lg:left-[50%] sm:top-[31.5%]"
           />
 
         <CandidateList candidates={sortedCandidates} />
+       <h3 className="text-1xl md:text-2xl font-bold text-center text-white leading-tight mb-6 mt-6 ml-1">
+            Nombre total de Tickets vendus : 18 
+          </h3> 
         <h3 className="text-1xl md:text-2xl font-bold text-white leading-tight mb-6 mt-6 ml-1">
             Être Ambassadeur du AMAPIANO VIBES ACTE 2 , c’est être le visage et le relais officiel de l’événement. 
           </h3>
