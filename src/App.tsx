@@ -73,7 +73,7 @@ function App() {
           />
 
         <CandidateList candidates={sortedCandidates} />
-       <h3 className="text-1xl md:text-2xl font-bold text-center text-white leading-tight mb-6 mt-6 ml-1">
+       <h3 className="text-1xl md:text-2xl font-bold text-white leading-tight mb-6 mt-6 ml-1">
             Nombre total de Tickets vendus : 18 
           </h3> 
         <h3 className="text-1xl md:text-2xl font-bold text-white leading-tight mb-6 mt-6 ml-1">
